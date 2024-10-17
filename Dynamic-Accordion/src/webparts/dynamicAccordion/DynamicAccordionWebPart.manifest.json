@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "3973fdb6-f1fb-446c-9066-1bd65b0cb256",
+  "alias": "DynamicAccordionWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Advanced"
+      },
+      "title": {
+        "default": "Dynamic Accordion"
+      },
+      "description": {
+        "default": "Dynamic Accordion description"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "Dynamic Accordion"
+      }
+    }
+  ]
+}

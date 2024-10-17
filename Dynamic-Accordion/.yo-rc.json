@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.18.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "dynamic-accordion",
+    "libraryId": "51071b41-1a96-49ca-ba2a-a7bd113a0eb0",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Dynamic Accordion",
+    "solutionShortDescription": "Dynamic Accordion description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
