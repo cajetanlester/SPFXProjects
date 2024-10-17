@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.18.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "pnp-image-carousel",
+    "libraryId": "cce8dfec-dc1f-4ef4-86f9-b66f1884d4f5",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "pnp-image-carousel",
+    "solutionShortDescription": "pnp-image-carousel description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
