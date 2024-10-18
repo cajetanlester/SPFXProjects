@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://caje77sharepoint.sharepoint.com/sites/M365Updates",
+      "customActions": {
+        "b7e875b4-c7de-4f78-a127-6a2b10b4b587": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://caje77sharepoint.sharepoint.com/sites/M365Updates/",
+      "customActions": {
+        "b7e875b4-c7de-4f78-a127-6a2b10b4b587": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
